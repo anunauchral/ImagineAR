@@ -12,3 +12,8 @@ Cache-Control: public, max-age=315360000
  /Build/ImagineAR.wasm.gz
 Content-Type: application/wasm
 Content-Encoding: gzip
+
+# Set correct MIME type for WebAssembly file (ImagineAR.wasm)
+ /Build/ImagineAR.wasm.br
+Content-Type: application/wasm
+Content-Encoding: br
